@@ -1,4 +1,4 @@
 - name: Úvodní stránka
-  link: /
+  link: ./
 - name: O Právu na offline
-  link: /about.html
+  link: ./about.html
