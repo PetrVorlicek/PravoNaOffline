@@ -1,9 +1,6 @@
 - name: Úvodní stránka
-  link: ./
-  link_check: /
+  link: /
 - name: O Právu na offline
-  link: ./about
-  link_check: /about.html
+  link: /about.html
 - name: Blog
-  link: ./blog
-  link_check: /blog.html
+  link: /blog.html
