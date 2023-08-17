@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="{{"/assets/css/styles.css" | prepend:
+    site.baseurl}}" />
   </head>
   <body>
-    {% include navigation.html %} {{ content }}
+    <div class="content container">
+      {% include navigation.html %} {{ content }}
+    </div>
+
+    <div class="footer">Vytvořeno s láskou PV a PN</div>
   </body>
 </html>
