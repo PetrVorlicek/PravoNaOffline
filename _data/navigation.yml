@@ -4,3 +4,6 @@
 - name: O Právu na offline
   link: ./about
   link_check: /about.html
+- name: Blog
+  link: ./blog
+  link_check: /blog.html
