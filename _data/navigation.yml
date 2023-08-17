@@ -1,4 +1,6 @@
 - name: Úvodní stránka
   link: ./
+  link_check: /
 - name: O Právu na offline
-  link: ./about.html
+  link: ./about
+  link_check: /about.html
